@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6b6137a28b.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+        *{
+            margin:0px;
+            padding: 5px;
+            color:black;
+        }
+        body{
+            background-image: url("drawing.jpg");
+            background-size: cover;
+        }
+
+        nav{
+            display:flex;
+            justify-content: space-evenly;
+            position:-webkit-sticky;
+            position:sticky;
+            font-family: 'Merienda', cursive;
+            font-size: 30px;
+            margin-bottom: 100px;
+
+        }
+        
+        #container{
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            justify-content:space-around;
+            row-gap: 100px;
+            text-align: center;
+            font-size: larger;
+        }
+        .link{
+            color: white;
+            text-decoration: none;
+        }
+        .icon{
+            width:120px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="item"> 
+            <a href="" target="_blank">Home</a>
+        </div>
+        <div class="item">  
+            <a href="https://brenda-meza.github.io/resume/" target="_blank">About Me</a>
+        </div>
+        <div class="item">
+            <a href="https://brenda-meza.github.io/My-projects-page/" target="_blank">Projects</a>
+        </div>
+    </nav>
+    </header>
+
+    <div id="container">
+        <div id="calculator">
+            <a class="link" href="https://brenda-meza.github.io/Calc.github.io/" target="_blank">
+                <img class="icon" src="calc.png">
+                <p>calculator</p>
+            </a>
+        </div>
+        <div id="quiz">
+            <a class="link" href="https://brenda-meza.github.io/Quiz/" target="_blank">
+                <img class="icon" src="quiz.png">
+                <p>Quiz</p>
+            </a>
+        </div>
+        <div id="game">
+            <a class="link" href="https://brenda-meza.github.io/Game/" target="_blank">
+                <img class="icon" src="joystick.png">
+                <p>Number Merging Game</p>
+            </a>
+        </div>
+        <div id="animate">
+            <a class="link" href="https://brenda-meza.github.io/Animation/" target="_blank">
+                <img class="icon" src="animate.png">
+                <p>CSS Animation</p>
+            </a>
+        </div>
+        <div id="gallery">
+            <a class="link" href="https://brenda-meza.github.io/Photoalbum.github.io/" target="_blank">
+                <img class="icon" src="gallery.png">
+                <p>Photo Gallery</p>
+            </a>
+        </div>
+        <div id="flexbox">
+            <a class="link" href="https://brenda-meza.github.io/Flexbox/" target="_blank">
+                <img class="icon" src="flex.png">
+                <p>Flexbox Website</p>
+            </a>
+        </div>
+        <div id="Form">
+            <a class="link" href="https://brenda-meza.github.io/form.github.io/" target="_blank">
+                <img class="icon" src="form.png">
+                <p>Order Form</p>
+            </a>
+        </div>
+        <div id="JQuery">
+            <a class="link" href="https://brenda-meza.github.io/JQuery.github.io/" target="_blank">
+                <img class="icon" src="j.png">
+                <p>JQuery</p>
+            </a>
+        </div>
+    </div>
+    <footer>
+    </footer>
+</body>
+</html>
